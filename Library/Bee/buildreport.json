@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 2028609221770,"dur": 48146879.2, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 2028609249458.9,"dur": 280846.3, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 2028609540764.1,"dur": 47729989.7, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "06/04/2022 20:40:35",
+"meta_command_line": "\"C:\\Program Files (x86)\\2021.3.3f1\\Editor\\Unity.exe\" -projectpath C:\\Users\\skdia\\Documents\\ShootingGame -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-4EEgznTsqA3-W4pA5UavU -hubSessionId 576190b0-e3cf-11ec-95f6-715ac3531f31 -accessToken JgadNMGtt_oko37ykFjC6vZyY1-3eY42GgStVz-nKLw00df",
+"meta_command_line_args": "C:\\Program Files (x86)\\2021.3.3f1\\Editor\\Unity.exe -projectpath C:\\Users\\skdia\\Documents\\ShootingGame -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-4EEgznTsqA3-W4pA5UavU -hubSessionId 576190b0-e3cf-11ec-95f6-715ac3531f31 -accessToken JgadNMGtt_oko37ykFjC6vZyY1-3eY42GgStVz-nKLw00df",
+"meta_user_name": "skdia",
+"meta_os_version": "Microsoft Windows NT 10.0.22000.0",
+"meta_cpu_count": "12"
+}
